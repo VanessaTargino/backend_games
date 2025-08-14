@@ -1,6 +1,6 @@
-🎮 Loja de Games - Backend
+Loja de Games - Backend
 Backend desenvolvido em NestJS para gerenciamento de uma loja de games, com sistema completo de CRUD para produtos e categorias.
-🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 NestJS - Framework Node.js para aplicações escaláveis
 TypeScript - Linguagem de programação tipada
@@ -9,32 +9,32 @@ MySQL - Sistema de gerenciamento de banco de dados
 Class Validator - Validação de dados
 Class Transformer - Transformação de objetos
 
-📋 Funcionalidades
-📂 Categorias
+Funcionalidades
+Categorias
 
-✅ Listar todas as categorias
-✅ Buscar categoria por ID
-✅ Buscar categoria por nome
-✅ Criar nova categoria
-✅ Atualizar categoria existente
-✅ Deletar categoria
+Listar todas as categorias
+Buscar categoria por ID
+Buscar categoria por nome
+Criar nova categoria
+Atualizar categoria existente
+Deletar categoria
 
-🎯 Produtos
+Produtos
 
-✅ Listar todos os produtos
-✅ Buscar produto por ID
-✅ Buscar produto por nome
-✅ Criar novo produto
-✅ Atualizar produto existente
-✅ Deletar produto
+Listar todos os produtos
+Buscar produto por ID
+Buscar produto por nome
+Criar novo produto
+Atualizar produto existente
+Deletar produto
 
-🔗 Relacionamentos
+Relacionamentos
 
 One-to-Many entre Categoria e Produto
 Cada categoria pode ter múltiplos produtos
 Cada produto pertence a uma categoria
 
-🛠️ Instalação e Configuração
+Instalação e Configuração
 Pré-requisitos
 
 Node.js (versão 16 ou superior)
@@ -68,33 +68,12 @@ npm run start:dev
 npm run build
 npm run start:prod
 A aplicação estará rodando em http://localhost:4000
-
----
-
-📡 Endpoints da API
-📂 Categorias (/categorias)
-Método - Endpoint - Descrição 
-GET/categorias Listar todas as categorias
-GET/categorias/:id Buscar categoria por ID
-GET/categorias/nome/:nome Buscar categoria por nome
-POST/categorias Criar nova categoria
-PUT/categorias Atualizar categoria
-DELETE/categorias/:id Deletar categoria
-
----
-
-🎯 Produtos (/produtos)
-Método - Endpoint - Descrição
-GET/produtos Listar todos os produtos
-GET/produtos/:id Buscar produto por ID
-GET/produtos/nome/:nome Buscar produto por nome
-POST/produtos Criar novo produto
-PUT/produtos Atualizar produto
-DELETE/produtos/:id Deletar produto
-
----
-
-📝 Exemplos de Uso
+Endpoints da API
+Categorias (/categorias)
+MétodoEndpointDescriçãoGET/categoriasListar todas as categoriasGET/categorias/:idBuscar categoria por IDGET/categorias/nome/:nomeBuscar categoria por nomePOST/categoriasCriar nova categoriaPUT/categoriasAtualizar categoriaDELETE/categorias/:idDeletar categoria
+Produtos (/produtos)
+MétodoEndpointDescriçãoGET/produtosListar todos os produtosGET/produtos/:idBuscar produto por IDGET/produtos/nome/:nomeBuscar produto por nomePOST/produtosCriar novo produtoPUT/produtosAtualizar produtoDELETE/produtos/:idDeletar produto
+Exemplos de Uso
 Criar Categoria
 jsonPOST /categorias
 {
@@ -128,7 +107,7 @@ jsonPUT /produtos
     "id": 1
   }
 }
-🗂️ Estrutura do Projeto
+Estrutura do Projeto
 src/
 ├── app.module.ts          # Módulo principal da aplicação
 ├── main.ts               # Arquivo de inicialização
@@ -144,7 +123,7 @@ src/
     ├── produto.controller.ts      # Controller do produto
     ├── produto.service.ts         # Service do produto
     └── produto.module.ts          # Módulo do produto
-🧪 Testando a API
+Testando a API
 Você pode testar a API usando ferramentas como:
 
 Insomnia (recomendado)
@@ -153,8 +132,6 @@ Thunder Client (VS Code)
 cURL
 
 Importe os endpoints listados acima e teste todas as funcionalidades CRUD.
-
----
-
-👩‍💻 Desenvolvido por
+Desenvolvido por
+Vanessa Targino
 Vanessa Targino
